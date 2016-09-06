@@ -27,7 +27,7 @@ class SwittsController < ApplicationController
     @switt = Switt.new(switt_params)
 
     respond_to do |format|
-      if @switt.save
+      if verify_recaptcha(model: @switt) && @switt.save
         format.html { redirect_to @switt, notice: 'Switt was successfully created.' }
         format.json { render :show, status: :created, location: @switt }
       else
