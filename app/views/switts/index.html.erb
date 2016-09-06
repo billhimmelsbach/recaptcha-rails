@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Switts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Super power</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @switts.each do |switt| %>
+      <tr>
+        <td><%= switt.name %></td>
+        <td><%= switt.super_power %></td>
+        <td><%= link_to 'Show', switt %></td>
+        <td><%= link_to 'Edit', edit_switt_path(switt) %></td>
+        <td><%= link_to 'Destroy', switt, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Switt', new_switt_path %>

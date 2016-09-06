@@ -1,0 +1,1 @@
+json.partial! "switts/switt", switt: @switt
