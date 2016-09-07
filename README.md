@@ -1,6 +1,6 @@
 # Setting Up reCAPTCHA for Rails
 
-* Setting up rails for reCAPTCHA with the reCAPTCHA gem! Easier than it sounds!
+* Setting up reCAPTCHA for Rails with the reCAPTCHA gem! It's easier than it sounds!
 
 ## Basic Setup Instructions
 
@@ -67,7 +67,7 @@ else
 end
 ```
 
-* You did it! Bots can eat it.
+* You did it! Bots can eat it. Ask Bill if you have any questions!
 
 
 ## Links to Developer’s Github :octocat:
