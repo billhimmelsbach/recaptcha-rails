@@ -41,7 +41,7 @@ class SwittsController < ApplicationController
   # PATCH/PUT /switts/1.json
   def update
     respond_to do |format|
-      if @switt.update(switt_params)
+      if verify_recaptcha(model: @switt) && @switt.update(switt_params)
         format.html { redirect_to @switt, notice: 'Switt was successfully updated.' }
         format.json { render :show, status: :ok, location: @switt }
       else
