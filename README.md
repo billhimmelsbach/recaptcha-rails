@@ -4,8 +4,8 @@
 
 ## Basic Setup Instructions
 
-* Request a free reCAPTCHA key from Google : https://www.google.com/recaptcha/admin
-* Setup your reCAPTCHA key to work with localhost and any other domains you want
+* Request a free reCAPTCHA key from Google: https://www.google.com/recaptcha/admin
+* Setup your reCAPTCHA key to work with localhost and any other domains you want:
 ![reCAPTCHA key setup:](https://i.imgur.com/AYg4eZe.png)
 * Drop this code into your rails app's Gemfile. Include the doteenv gem first, before the recaptcha gem is loaded. Alternatively, choose your own API key security solution.
 
