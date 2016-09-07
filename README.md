@@ -56,8 +56,18 @@ export RECAPTCHA_PRIVATE_KEY = 'YOUR_PRIVATE_KEY'
 <% end %>
 ```
 
+* Lastly just add a reCAPTCHA check to the controller that you want to protect (verify_recaptcha(model: @model)), then you're done!
 
+```Ruby
+@user = User.new(params[:user].permit(:name))
+if verify_recaptcha(model: @user) && @user.save
+  redirect_to @user
+else
+  render 'new'
+end
+```
 
+* You did it! Bots can eat it.
 
 
 ## Links to Developer’s Github :octocat:
