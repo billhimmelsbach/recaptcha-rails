@@ -1,6 +1,6 @@
 # Setting Up reCAPTCHA for Rails
 
-* Setting up reCAPTCHA for Rails with the reCAPTCHA gem! It's easier than it sounds!
+* Setting up reCAPTCHA for Rails with the reCAPTCHA gem? It's easier than it sounds! Follow the instructions below with your own project or clone this one just to test it. Message Bill with any questions!
 
 ## Basic Setup Instructions
 
