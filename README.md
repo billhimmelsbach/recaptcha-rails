@@ -69,6 +69,8 @@ end
 
 * You did it! Bots can eat it. Ask Bill if you have any questions!
 
+<img src="https://www.google.com/recaptcha/intro/images/hero-recaptcha-demo.gif" width="300px" />
+
 
 ## Links to Developer’s Github :octocat:
 * [Bill Himmelsbach] (https://github.com/billhimmelsbach)
